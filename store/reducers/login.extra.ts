@@ -13,12 +13,13 @@ export const TAuthUser = createAsyncThunk(
     },
 )
 export const TAuthOTPVerify= createAsyncThunk(
-    'users/auth',
+    'users/otp',
     async (data: {email : string,code: string}) => {
-        const response = await axios.post(`${CONSTANTS.BASE_URL}auth/login`, {
+        const response = await axios.post(`${CONSTANTS.BASE_URL}auth/verify-login`, {
             email: data.email,
             code: data.code
         });
+        console.log("OTP Correct");
         return response.status;
     },
 )

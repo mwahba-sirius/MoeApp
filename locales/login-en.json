@@ -1,0 +1,14 @@
+
+{
+    "email" : "E-mail",
+    "password" : "Password",
+    "login" : "Login",
+    "otp" : "OTP",
+    "errors" : {
+        "email" :"Please enter correct email",
+        "password" : "Please enter password",
+        "failedOTP" : "Incorrect OTP Entered",
+        "failedLogin" : "Please check email and password",
+        "otp" : "Please check OTP"
+    }
+}
