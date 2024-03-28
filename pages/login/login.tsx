@@ -15,7 +15,7 @@ import { local } from "../../locales";
 
 const validationObject = yup.object({
     email: yup.string().email(local.t("errors.email")).required(),
-    password: yup.string().min(1, local.t("error.password"))
+    password: yup.string().min(1, local.t("errors.password"))
 })
 const otpValidationObject = yup.object({
     otp: yup.string().required().min(5, local.t("errors.otp")),

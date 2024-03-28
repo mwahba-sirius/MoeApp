@@ -22,8 +22,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-            "package": "com.infromatique.MoE"
-
+      "package": "com.infromatique.MoE"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -38,6 +37,11 @@
           }
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "085bacb4-8236-42a7-90c5-0289ec04a1df"
+      }
+    }
   }
 }
