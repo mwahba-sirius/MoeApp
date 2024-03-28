@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "MoE2",
+    "name": "Ministry of Economics",
     "slug": "MoE2",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,7 +21,9 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+            "package": "com.infromatique.MoE"
+
     },
     "web": {
       "favicon": "./assets/favicon.png"
